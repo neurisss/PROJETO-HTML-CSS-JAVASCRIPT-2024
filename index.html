@@ -5,31 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BalleCoffee</title>
     <meta name="description" content="Explore dezenas de variaçôes da bebida favorita entre os devs ao redor do mundo!">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav>
-            <span>BalleCoffee</span>
-            <ul>
+            <span class="logo"> BalleCoffee</span>
+            <ul class="menu">
                 <li><a href="">Home</a></li></li>
                 <li><a href="">Receitas</a></li>
                 <li><a href="">Novidades</a></li>
                 <li><a href="">Melhor Avaliadas</a></li>
             </ul>
-            <a href="">Github</a>
+            <a class="github">Github</a>
             
         </nav>
 
     </header>
     <main>
-        <section>
-            <header>
-                <span>Novidade</span>
+        <section class="hero">
+            <header class="hero-conteudo">
+                <span class="destaque marron">Novidade</span>
                 <h1>Encontre a receita perfeita!</h1>
                 <hr/>
-                <h2>Explore dezenas de variaçôes da bebida favorita entre os devs ao redor do mundo!</h2>
+                <h2 class="hero-subtitulo">Explore dezenas de variaçôes da bebida favorita entre os devs ao redor do mundo!</h2>
             </header>
-            <div>
+            <div class="hero-imagens-container">
                 <figure><img src="assets/hero-banner- (1).jpg" alt=""></figure>
                 <figure><img src="assets/hero-banner- (2).jpg" alt=""></figure>
                 <figure><img src="assets/hero-banner- (3).jpg" alt=""></figure>
@@ -44,16 +45,39 @@
             </div>
 
         </section>
-        <section>
-            <button>
-                <img src="assets/button.png" alt=""/>
+        <section class="botao-container">
+            <button type="button">
+                <img src="assets/down-arrow.svg.svg" alt=""/>
             </button>
         </section>
         <section>
-
+            <header>
+                <span>Receitas</span>
+                <h2>Confira as últimas receitas</h2>
+                <p>Dê uma olhada nas receitas mais amadas</p>
+            </header>
+            <div>
+                <div>
+                    <header>
+                        <div>
+                            <span>Em alta </span>
+                            <h3>Cappuccino</h3>
+                        </div>
+                        <p>Extraordinário - 4/4</p>
+                    </header>
+                    <p>Uma bebida ideal para os amantes de doce e cremosidade.</p>
+                    <div>
+                        <img src="assets/profile.png" alt="">
+                        <span>Rafaella Ballerini</span>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
+        <p>Copyright &lt;CODEFEE /&GT; 2024</p>
+       
+        <P>Feito com muito amor e café por Rafaella Ballerini</P>
 
     </footer>
 </body>
