@@ -189,15 +189,22 @@ main {
 }
 
 .receitas-card-container {
+    background: white;
     padding: 0rem 10rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
-    justify-content: space-between;
+    
+    
+
+    
+    
+    
+    
 }
 
-.receitas-card {
+.receitas-card-1, .receitas-card-2, .receitas-card-3,.receitas-card-4  {
     background: #241a1c;
     padding: 2rem;
     border-radius: 0.5rem;
@@ -208,6 +215,9 @@ main {
     flex-basis: 29rem;
     margin-top: 2rem;
 }
+
+
+
 
 
 
